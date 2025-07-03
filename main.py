@@ -15,7 +15,7 @@ import pytz
 CONFIG = {
     "VERSION": "1.3.0",
     "VERSION_CHECK_URL": "https://raw.githubusercontent.com/sansan0/TrendRadar/refs/heads/master/version",
-    "SHOW_VERSION_UPDATE": True,  # 控制显示版本更新提示，改成 False 将不接受新版本提示
+    "SHOW_VERSION_UPDATE": False,  # 控制显示版本更新提示，改成 False 将不接受新版本提示
     "FEISHU_MESSAGE_SEPARATOR": "━━━━━━━━━━━━━━━━━━━",  # feishu消息分割线
     "REQUEST_INTERVAL": 1000,  # 请求间隔(毫秒)
     "REPORT_TYPE": "daily",  # 报告类型: "current"|"daily"|"both"
@@ -2442,17 +2442,15 @@ class NewsAnalyzer:
         print(f"报告类型: {self.report_type}")
 
         ids = [
-            ("toutiao", "今日头条"),
-            ("baidu", "百度热搜"),
             ("wallstreetcn-hot", "华尔街见闻"),
-            ("thepaper", "澎湃新闻"),
-            ("bilibili-hot-search", "bilibili 热搜"),
             ("cls-hot", "财联社热门"),
-            ("ifeng", "凤凰网"),
-            "tieba",
-            "weibo",
-            "douyin",
-            "zhihu",
+            ("zhihu", "知乎热榜"),
+            ("v2ex", "V2EX 热门"),
+            ("sspai", "少数派热榜"),
+            ("smzdm", "什么值得买热榜"),
+            ("linuxdo","LinuxDo 热门"),
+            ("github", "GitHub Trending"),
+            ("hackernews", "Hacker News 热门"),
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
