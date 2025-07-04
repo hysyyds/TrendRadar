@@ -2,18 +2,12 @@ DeepSeek
 梁文锋
 
 华为
-任正非
-鸿蒙
-HarmonyOS
 
 宇树
-王兴兴
 
 稚晖君
 智元
 
-黑神话
-冯骥
 
 !车
 !餐
@@ -24,7 +18,6 @@ HarmonyOS
 刘慈欣
 
 字节
-张一鸣
 
 马斯克
 特斯拉
@@ -49,19 +42,11 @@ openai
 claude
 Anthropic
 
-iphone
-ipad
-mac
-ios
-
 ai
 !gai
 人工智能
 llm
-
-汽车
-自动驾驶
-l3
+agent
 
 机器人
 
@@ -70,11 +55,3 @@ l3
 光刻机
 
 科技
-
-核能
-
-月球
-登月
-火星
-宇宙
-飞船

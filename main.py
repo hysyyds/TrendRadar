@@ -2451,6 +2451,8 @@ class NewsAnalyzer:
             ("linuxdo","LinuxDo 热门"),
             ("github", "GitHub Trending"),
             ("hackernews", "Hacker News 热门"),
+            ("coolapk","酷安热榜"),
+            ("chongbuluo","虫部落热榜"),
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
